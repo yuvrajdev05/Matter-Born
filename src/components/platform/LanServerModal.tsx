@@ -145,7 +145,7 @@ export const LanServerModal: React.FC<LanServerModalProps> = ({ onClose }) => {
           <div className="grid grid-cols-3 gap-1.5">
             <button
               type="button"
-              onClick={() => applyPreset('https://matter-born.onrender.com')}
+              onClick={() => applyPreset('https://matter-born-8z4c.onrender.com')}
               className="px-2 py-1.5 rounded-xl bg-[#E8F2EA] hover:bg-emerald-100 border border-[#CFE2D3] text-[11px] font-bold text-[#0E3323] transition-colors text-center cursor-pointer truncate"
             >
               ☁️ Render

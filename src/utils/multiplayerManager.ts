@@ -123,7 +123,7 @@ class MultiplayerManager {
     if (typeof window !== 'undefined' && window.location && window.location.origin && !window.location.origin.startsWith('file:') && !window.location.origin.startsWith('capacitor:')) {
       return window.location.origin.replace(/\/+$/, '');
     }
-    return 'https://matter-born.onrender.com';
+    return 'https://matter-born-8z4c.onrender.com';
   }
 
   public getServerWsUrl(): string {
