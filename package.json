@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "tsx server.ts",
+    "postinstall": "npm run build",
     "build": "vite build && node -e \"const fs=require('fs'); if(fs.existsSync('public/Matter-Born.apk')) fs.copyFileSync('public/Matter-Born.apk','dist/Matter-Born.apk');\" && esbuild server.ts --bundle --platform=node --format=cjs --packages=external --sourcemap --outfile=dist/server.cjs",
     "start": "node dist/server.cjs",
     "preview": "vite preview",
