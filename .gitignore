@@ -38,6 +38,8 @@ google-services.json
 node_modules/
 dist/
 dev-dist/
+bun.lock
+bun.lockb
 .env
 .env.local
 .env.*.local
